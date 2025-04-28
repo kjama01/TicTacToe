@@ -25,7 +25,7 @@ body {
   font-family: "Orbitron", sans-serif;
 }
 
-/* #startscreen {
+#startscreen {
   position: fixed;
   background-image: url(/img/startscreen.jpg);
   background-size: cover;
@@ -35,7 +35,7 @@ body {
   height: 100%;
   z-index: 3000;
   transition: opacity 1s ease-out;
-} */
+}
 #top {
   position: absolute;
   top: 0px;
