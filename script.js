@@ -280,7 +280,7 @@ const gameAI = (() => {
           return;
         }
         turn = computerMark;
-        setTimeout(computerMove, 300);
+        computerMove();
       }
     }
   }
@@ -453,14 +453,18 @@ function isWinner() {
     }
   //diagonal
   if (
-    (gameBoard[0][0] !== "" &&
-      gameBoard[0][0] === gameBoard[1][1] &&
-      gameBoard[1][1] === gameBoard[2][2]) ||
-    (gameBoard[0][2] !== "" &&
-      gameBoard[0][2] === gameBoard[1][1] &&
-      gameBoard[1][1] === gameBoard[2][0])
+    gameBoard[0][0] !== "" &&
+    gameBoard[0][0] === gameBoard[1][1] &&
+    gameBoard[1][1] === gameBoard[2][2]
   ) {
     return gameBoard[0][0];
+  }
+  if (
+    gameBoard[0][2] !== "" &&
+    gameBoard[0][2] === gameBoard[1][1] &&
+    gameBoard[1][1] === gameBoard[2][0]
+  ) {
+    return gameBoard[0][2];
   }
   if (isBoardFull()) {
     return "tie";
