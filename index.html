@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" />
+    <script src="script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/14a94f0d7a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="all">
+      <!-- <audio id="backgroundAudio" autoplay loop muted>
+        <source id="audioSource" src="/mp3/cantina-band.mp3" type="audio/mpeg">
+    </audio>
+    
+    <div id="audioControl">
+        <img id="audioIcon" src="/img/enable-sound.png"/>
+    </div> -->
+      <div id="startscreen"></div>
+      <div id="content">
+        <section id="top">
+          <div id="left-player">
+            <div id="left-avatar-selected"></div>
+            <h2 id="left-name-selected"></h2>
+            <div id="left-weapon-selected"></div>
+          </div>
+          <div id="topmiddle"></div>
+          <div id="right-player">
+            <div id="right-weapon-selected"></div>
+            <h2 id="right-name-selected"></h2>
+            <div id="right-avatar-selected"></div>
+          </div>
+        </section>
+        <aside id="left" class="hidden">
+          <section class="player-info first-player">
+            <h2 class="shake">Player One</h2>
+            <input type="text" id="playerone-name" required maxlength="12" />
+          </section>
+          <section class="left-player-avatar">
+            <h3 class="shake">Choose your avatar</h3>
+            <div class="left-avatar-select avatar select">
+              <button data-avatar="1"></button>
+              <button data-avatar="2"></button>
+              <button data-avatar="3"></button>
+              <button data-avatar="4"></button>
+            </div>
+          </section>
+          <section class="left-player-weapon">
+            <h3 class="shake">Choose your weapon</h3>
+            <div class="left-weapon-select weapon select">
+              <button data-weapon="1"></button>
+              <button data-weapon="2"></button>
+            </div>
+          </section>
+        </aside>
+        <main id="main">
+          <section id="gameStartInfo">
+            <h1>Choose your gamemode!</h1>
+            <section class="gamemode-select select">
+              <div class="gamemode-option">
+                <h3>Second Player</h3>
+                <button data-mode="1"></button>
+              </div>
+              <div class="gamemode-option">
+                <h3>Computer</h3>
+                <button data-mode="2"></button>
+              </div>
+            </section>
+            <button id="startMenu">Fulfill Your Destiny</button>
+            <button id="startGame" class="hidden">
+              Ignite The Lightsabers!
+            </button>
+            <button id="startGameComputer" class="hidden">
+              Let the duel begin!
+            </button>
+            <h2></h2>
+          </section>
+          <div id="board"></div>
+          <h2 id="gameInfo"></h2>
+        </main>
+        <aside id="right" class="hidden">
+          <section class="player-info second-player">
+            <h2 class="shake">Player Two</h2>
+            <input type="text" id="playertwo-name" required maxlength="12" />
+          </section>
+          <section class="right-player-avatar">
+            <h3 class="shake">Choose your avatar</h3>
+            <div class="right-avatar-select avatar select">
+              <button data-avatar="5"></button>
+              <button data-avatar="6"></button>
+              <button data-avatar="7"></button>
+              <button data-avatar="8"></button>
+            </div>
+          </section>
+          <section class="right-player-weapon">
+            <h3 class="shake">Choose your weapon</h3>
+            <div class="right-weapon-select weapon select">
+              <button data-weapon="3"></button>
+              <button data-weapon="4"></button>
+            </div>
+          </section>
+        </aside>
+      </div>
+      <i class="fa-solid fa-arrows-rotate"></i>
+    </div>
+  </body>
+</html>
