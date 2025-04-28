@@ -525,6 +525,6 @@ input:focus {
     gap: 30px;
   }
   .fa-arrows-rotate {
-    display: none;
+    display: none !important;
   }
 }
