@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-image: url(/img/background.jpg);
+  background-image: url(img/background.jpg);
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -27,7 +27,7 @@ body {
 
 #startscreen {
   position: fixed;
-  background-image: url(/img/startscreen.jpg);
+  background-image: url(img/startscreen.jpg);
   background-size: cover;
   background-position: center;
   margin: 0;
