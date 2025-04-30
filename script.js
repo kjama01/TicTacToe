@@ -90,7 +90,7 @@ function gameMenu(opt) {
   }
 }
 //////////////////////////////
-const gameBoard = [
+let gameBoard = [
   ["", "", ""],
   ["", "", ""],
   ["", "", ""],
