@@ -19,6 +19,6 @@ Funkcjonalności
 
 [Live Demo](https://kjama01.github.io/TicTacToe/)  
 
-##Zrzuty ekranu  
+Zrzuty ekranu  
 ![Podgląd 1](https://i.imgur.com/JTB1aAH.jpeg)  
 ![Podgląd 2](https://i.imgur.com/rUvZ6EO.jpeg)  
